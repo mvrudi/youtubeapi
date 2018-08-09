@@ -2,9 +2,6 @@
 SPA consuming an API from Youtube (React)
 Projeto construído usando REACT (WEBPACK / SCSS / BOOTSTRAP)
 
-Demonstração:
-https://mvrudi.github.io/youtubeapi/
-
 Instruções:
 - Clone o repositório para a sua máquina.
 - Você deve ter o Node instalado para a execução do app. Você pode baixá-lo em https://nodejs.org . A instalação é bem simples.
