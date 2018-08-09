@@ -1,0 +1,18 @@
+.jumbotron {
+    background: $black !important;
+    height: 300px;
+    text-align: center;
+    color: $white !important;
+}
+
+.jumbotron h1 {
+    font-family: $fonte;
+    font-size: 50px;
+}
+
+#logo {
+    color: red;
+    font-family: $fonte;
+    font-weight: bolder;
+    font-size: 40px;
+}

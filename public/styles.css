@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+    background-color: white !important;
+}
+
+.jumbotron {
+    background: black !important;
+    height: 300px;
+    text-align: center;
+    color: white !important;
+}
+
+.jumbotron h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+
+#logo {
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+#resultado {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#busca {
+    margin: 0 auto;
+    padding: 50px;
+    display: flex;
+    justify-items: center;
+}
+
+#input-text {
+    height: 50px;
+    border: firebrick 1px solid;
+}
+
+#botao {
+    margin-left: 10px;
+    background: black;
+    color: red;
+}
+
+#card {
+    background: red;
+    height: 80px;
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 50px 0 0 0;
+}
+
+.card-body {
+    padding-top: 30px;
+    color: whitesmoke;
+    font-size: 15px;
+    word-wrap: break-word;
+}
+
+#frame {
+    background: black;
+    border: black 5px solid;
+    border-bottom-color: red;
+}
+
+#paginacao {
+        height: 100%;
+        border-collapse: collapse;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+}
+
+/* Ajustes responsivos para celular */
+@media screen and (max-width: 350px){
+    body {
+        overflow-x: hidden;
+    }
+    #botao {
+        margin-top: 10px;
+        float: right;
+    }
+     #frame {
+        margin: 0 auto;
+        width: 300px;
+        height: 200px;
+    }
+    #input-text {
+        min-width: 80%;
+    }
+    #busca {
+        padding: 20px;
+        display: block;
+    }
+    #resultado {
+        display: block;
+        align-content: center;
+        margin-top: 100px;
+        width: 300px;
+        height: 200px;
+        margin-left: 10px;
+    }
+    .card-body {
+        padding: 10px;
+        width: 300px;
+        height: 200px;
+        display: block;
+    }
+}
+

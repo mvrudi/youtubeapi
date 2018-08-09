@@ -1,0 +1,94 @@
+#resultado {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#busca {
+    margin: 0 auto;
+    padding: 50px;
+    display: flex;
+    justify-items: center;
+}
+
+#input-text {
+    height: 50px;
+    border: $off-red 1px solid;
+    font-family: $fonte;
+    font-size: 22px;
+    color: $off-red;
+}
+
+#botao {
+    margin-left: 10px;
+    background: $black;
+    color: $red;
+}
+
+#card {
+    background: $red;
+    height: 80px;
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 50px 0 0 0;
+}
+
+.card-body {
+    padding-top: 30px;
+    color: $off-white;
+    font-size: 15px;
+    word-wrap: break-word;
+}
+
+#frame {
+    background: $black;
+    border: $black 5px solid;
+    border-bottom-color: $red;
+}
+
+#paginacao {
+        height: 100%;
+        border-collapse: collapse;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+}
+
+/* Ajustes responsivos para celular */
+@media screen and (max-width: $cell-breakpoint){
+    body {
+        overflow-x: hidden;
+    }
+    #botao {
+        margin-top: 10px;
+        float: right;
+    }
+     #frame {
+        margin: 0 auto;
+        width: $frame-width-small;
+        height: $frame-height-small;
+    }
+    #input-text {
+        min-width: 80%;
+    }
+    #busca {
+        padding: 20px;
+        display: block;
+    }
+    #resultado {
+        display: block;
+        align-content: center;
+        margin-top: 100px;
+        width: $frame-width-small;
+        height: $frame-height-small;
+        margin-left: 10px;
+    }
+    .card-body {
+        padding: 10px;
+        width: $frame-width-small;
+        height: $frame-height-small;
+        display: block;
+    }
+}
