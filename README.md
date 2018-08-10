@@ -1,13 +1,13 @@
 # youtubeapi
-SPA consuming an API from Youtube (React)
-Projeto construído usando REACT (WEBPACK / SCSS / BOOTSTRAP)
+<h1>SPA consuming an API from Youtube (React)</h1>
+<h2>Projeto construído usando REACT (WEBPACK / SCSS / BOOTSTRAP)</h2>
 
-Instruções:
+<b>Instruções:</b>
 - Clone o repositório para a sua máquina.
 - Você deve ter o Node instalado para a execução do app. Você pode baixá-lo em https://nodejs.org . A instalação é bem simples.
 - Depois do Node instalado, através de um terminal, navegue até o diretório em que foi clonado o app.
 
-Execute: 
+<b>Execute: </b>
 npm i yarn
 
 Após o yarn instalado, é necessário criar as dependências para a execução.
@@ -17,7 +17,7 @@ Após o yarn instalado, é necessário criar as dependências para a execução.
 Após instalado, executar "npm i yarn" novamente.
 Para verificar se o yarn está instalado, execute yarn --version
 
-Com o yarn devidamente instalado, basta instalar as dependências abaixo:
+<b>Com o yarn devidamente instalado, basta instalar as dependências abaixo:</b>
 
 
 yarn add -D react react-dom
@@ -36,18 +36,19 @@ yarn add -D babel-preset-env babel-preset-react
 yarn add -D react-js-pagination
 yarn add -D postcss-loader
 
-- Instaladas as dependências, execute os comandos abaixo:
+<b>- Instaladas as dependências, execute os comandos abaixo:</b>
 yarn run build
 yarn run dev-server 
 
 Abra o endereço http://localhost:8080/ em seu navegador para a visualização.
 
 Referências:
-https://www.npmjs.com/package/yarn (YARN)
+https://yarnpkg.com/pt-BR/ (YARN)
+https://www.npmjs.com/package/yarn (YARN NPM)
 https://reactjs.org/ (REACT)
 https://webpack.js.org/ (WEBPACK)
 http://sass-lang.com/ (SASS/SCSS)
 https://nodejs.org (NODE)
 https://getbootstrap.com/ (BOOTSTRAP)
 
-Autor: Marcus Vinicius Reis
+<B>Autor: Marcus Vinicius Reis</B>
