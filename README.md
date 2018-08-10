@@ -10,7 +10,15 @@ Instruções:
 Execute: 
 npm i yarn
 
-Após o yarn instalado, é necessário criar as dependências para a execução:
+Após o yarn instalado, é necessário criar as dependências para a execução.
+
+<b>Observação</b>: Caso você não consiga executar o yarn, obtendo o erro: "'yarn' is not recognized as an internal or external command, operable program or batch file. #2504". A solução encontrada foi instalar o yarn usando o instalador para o seu sistema operacional, através do link: https://yarnpkg.com/pt-BR/docs/install#windows-stable
+
+Após instalado, executar "npm i yarn" novamente.
+Para verificar se o yarn está instalado, execute yarn --version
+
+Com o yarn devidamente instalado, basta instalar as dependências abaixo:
+
 
 yarn add -D react react-dom
 yarn add -D webpack
