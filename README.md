@@ -40,6 +40,12 @@ yarn add -D postcss-loader<br/>
 yarn run build<br/>
 yarn run dev-server 
 
+<b>Observação:</b> Se preferir, pode substituir os comandos do yarn por npm para instalar as dependências e rodar o aplicativo.
+<b>npm i -D <dependência><br/>
+npm run build<br/>
+npm run dev-server</b>
+
+
 Abra o endereço http://localhost:8080/ em seu navegador para a visualização.
 
 Referências:<br/>
