@@ -42,7 +42,7 @@ yarn run dev-server
 
 Abra o endereço http://localhost:8080/ em seu navegador para a visualização.
 
-Referências:
+Referências:<br/>
 https://yarnpkg.com/pt-BR/ (YARN) <br/>
 https://www.npmjs.com/package/yarn (YARN NPM) <br/>
 https://reactjs.org/ (REACT) <br/>
